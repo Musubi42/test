@@ -25,9 +25,18 @@ ssh -T git@github.com
 
 # How to push to github
 
+## Link origin repository
+
 ## Add file
 
+```bash
+git add <non_du_fichier>
+```
 
 ## Commit file
+
+```bash
+git commit -m "<TON_MESSAGE>"
+```
 
 ## Push to github
