@@ -27,6 +27,17 @@ ssh -T git@github.com
 
 ## Link origin repository
 
+```bash
+git remote add origin <SSH_URL_OF_YOUR_REPO>
+```
+
+## Set upstream branch
+```bash
+git push --set-upstream origin main
+```
+
+![push upstream](./push-upstream.png)
+
 ## Add file
 
 ```bash
